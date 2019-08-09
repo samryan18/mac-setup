@@ -1,10 +1,12 @@
 # New Mac Setup
 
-* zsh/prezto
-* pyenv/pyenv-virtualenv
-* rc files
+## Instructions
+1. Run commands in `mac_setup.sh` in a terminal
+    * This will set up zsh/prezto and pyenv/pyenv-virtualenv
 
-Other stuff:
+2. Add the rc files to `~/`
+
+## iTerm
 * install iTerm2
 * change colors in preferences > profiles > colors
 
