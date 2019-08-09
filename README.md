@@ -1,7 +1,7 @@
 # New Mac Setup
 
 ## Instructions
-1. Run commands in `mac_setup.sh` in a terminal
+1. Run `mac_setup.sh` in a terminal (probably run commands one at a time)
     * This will set up zsh/prezto and pyenv/pyenv-virtualenv
 
 2. Add the rc files to `~/`
@@ -28,7 +28,6 @@ require(["codemirror/keymap/sublime", "notebook/js/cell", "base/js/namespace"],
         for(var cl=0; cl< cells.length ; cl++){
             cells[cl].code_mirror.setOption('keyMap', 'sublime');
         }
-
     } 
 );
 ```
