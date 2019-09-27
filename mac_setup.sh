@@ -33,3 +33,6 @@ pyenv install 3.6.6
 
 # Install pyenv-virtualenv
 brew install pyenv-virtualenv
+
+# Use vim as default git editor
+git config --global core.editor "vim" 
