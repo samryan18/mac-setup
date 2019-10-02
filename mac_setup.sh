@@ -25,6 +25,9 @@ for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
 done
 chsh -s $(which zsh)
 
+# install htop
+brew install htop
+
 # Install pyenv
 brew install pyenv
 
