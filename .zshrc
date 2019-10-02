@@ -19,8 +19,3 @@ alias mkvirtualenv="pyenv virtualenv 3.6.6"
 alias lsvirtualenv="pyenv virtualenvs"
 alias deactivate="pyenv deactivate"
 alias rmvirtualenv="pyenv rmvirtualenv"
-
-# git stuff
-#
-git config --global user.email "example@example.com"
-git config --global user.name "Sam Ryan"
