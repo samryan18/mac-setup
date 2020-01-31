@@ -19,3 +19,10 @@ alias mkvirtualenv="pyenv virtualenv 3.6.6"
 alias lsvirtualenv="pyenv virtualenvs"
 alias deactivate="pyenv deactivate"
 alias rmvirtualenv="pyenv rmvirtualenv"
+
+# git stuff
+#
+git config --global user.email "my_email@gmail.com"
+git config --global user.name "My Name"
+git config --global alias.logline "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+git config --global core.editor "vim"
