@@ -15,7 +15,7 @@ if command -v pyenv 1>/dev/null 2>&1; then eval "$(pyenv init -)"; fi
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
 alias workon="pyenv activate"
-alias mkvirtualenv="pyenv virtualenv 3.7.10"
+alias mkvirtualenv="pyenv virtualenv 3.8.10"
 alias lsvirtualenv="pyenv virtualenvs"
 alias deactivate="pyenv deactivate"
 alias rmvirtualenv="pyenv virtualenv-delete"
