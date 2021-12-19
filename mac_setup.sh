@@ -32,7 +32,7 @@ brew install htop
 brew install pyenv
 
 # Install python
-pyenv install 3.6.6
+pyenv install 3.8.10
 
 # Install pyenv-virtualenv
 brew install pyenv-virtualenv
